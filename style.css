@@ -23,6 +23,10 @@ body {
     text-align: center;
 }
 
+svg {
+    width: 1.5rem;
+}
+
 /* Footer */
 .attribution {
     text-align: center;
