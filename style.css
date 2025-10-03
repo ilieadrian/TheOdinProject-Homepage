@@ -2,43 +2,46 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    overflow-y: scroll;
-    overflow-x: hidden; 
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 body {
-    min-height: 100vh;
-    height: 100vh;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #F9FBFC;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    position: relative;
-    text-align: center;
+  min-height: 100vh;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f9fbfc;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
 }
 
 svg {
-    width: 1.5rem;
+  width: 1.5rem;
 }
 
+img {
+  width: 20rem;
+}
 /* Footer */
 .attribution {
-    text-align: center;
-    width: 100%;
-    padding-bottom: 0.3rem;
-    font-size: 0.7rem;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    z-index: 999;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 0.3rem;
+  font-size: 0.7rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
 }
 
 .attribution a {
-    margin-left: 0.3rem;
+  margin-left: 0.3rem;
 }
