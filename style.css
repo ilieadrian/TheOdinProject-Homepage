@@ -14,7 +14,7 @@ html {
 body {
   min-height: 100vh;
   height: 100vh;
-  font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
   background-color: #f9fbfc;
   display: flex;
   flex-direction: column;
@@ -30,6 +30,49 @@ svg {
 img {
   width: 20rem;
 }
+
+.content-container {
+  padding: 10px;
+}
+
+/* Header */
+header{
+  display: flex;
+  flex-direction: column;
+  background: #1a9fb5;
+  position: relative;
+  z-index: 1;
+  }
+
+  header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ffffff;
+  /* needs adjustment */
+  clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 100%);
+  /* needs adjustment */
+  z-index: -1;
+}
+
+.image-container{
+  position: relative;
+  
+}
+.image-container img {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+#name{
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+    font-family: "Playfair Display", serif;
+}
+
 /* Footer */
 .attribution {
   text-align: center;
