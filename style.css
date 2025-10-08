@@ -52,8 +52,13 @@ header{
   bottom: 0;
   background: #ffffff;
   /* needs adjustment */
+    /* needs adjustment */
+      /* needs adjustment */
   clip-path: polygon(40% 0, 100% 0, 100% 100%, 0 100%);
+      /* needs adjustment */
+    /* needs adjustment */
   /* needs adjustment */
+
   z-index: -1;
 }
 
@@ -65,11 +70,19 @@ header{
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-#name{
+#name {
+    font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  
   position: absolute;
   bottom: 0;
   right: 50%;
-    font-family: "Playfair Display", serif;
+  transform: translateX(50%);
+}
+
+p#name {
+  color: white;
+  text-shadow: -0.5px 0.5px 3px black;
 }
 
 /* Footer */
