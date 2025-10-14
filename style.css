@@ -1,4 +1,4 @@
-/* General styles */
+General styles
 *,
 *::before,
 *::after {
@@ -24,10 +24,6 @@ body {
 
 svg {
   width: 1.5rem;
-}
-
-img {
-  width: 20rem;
 }
 
 .content-container {
@@ -64,21 +60,32 @@ header{
 
 .image-container{
   position: relative;
-  
+  background-position: center;
 }
-.image-container img {
+
+#profile-image {
+  max-width: 25rem;
+  min-width: 10rem;
+  height: auto;
+  object-fit: cover;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+
 #name {
-    font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
+  text-align: left;
   font-size: 2rem;
-  
   position: absolute;
-  bottom: 0;
+  bottom: 2%;
   right: 50%;
   transform: translateX(50%);
 }
+
+
+
+
+
 
 p#name {
   color: white;
