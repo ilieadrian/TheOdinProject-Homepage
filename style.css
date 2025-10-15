@@ -58,21 +58,49 @@ header{
   z-index: -1;
 }
 
-.image-container{
+/* .image-container{
   position: relative;
   background-position: center;
+} */
+
+.content-container {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-#profile-image {
+.image-container {
+  position: relative;
+  width: auto;
+  max-width: 25rem;
+  
+}
+
+/* #profile-image {
   max-width: 25rem;
   min-width: 10rem;
   height: auto;
   object-fit: cover;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+} */
+
+#profile-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 3 / 5; /* Makes it a square; adjust to 4/5 or 3/4 for portrait */
+  /* background-image: url(images/portrait.jpg); */
+  /* background-size: cover;
+  background-position: center;
+  border-radius: 0.5rem; */
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 
-#name {
+/* #name {
   font-family: "Playfair Display", serif;
   text-align: left;
   font-size: 2rem;
@@ -80,17 +108,20 @@ header{
   bottom: 2%;
   right: 50%;
   transform: translateX(50%);
-}
+} */
 
-
-
-
-
-
-p#name {
+#name {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
   color: white;
-  text-shadow: -0.5px 0.5px 3px black;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
 }
+
 
 /* Footer */
 .attribution {
