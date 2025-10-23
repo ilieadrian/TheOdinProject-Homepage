@@ -14,7 +14,7 @@ html {
 body {
   min-height: 100vh;
   font-family: "Roboto", sans-serif;
-  background-color: #f9fbfc;
+  background-color: white;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -28,6 +28,22 @@ svg {
 
 img {
   max-width: 20rem;
+}
+
+h2 {
+    font-family: "Playfair Display", 'Times New Roman', Times, serif;
+    font-weight: 200;
+    margin: 0.9rem 0;
+    font-size: 2rem;
+}
+
+.content-container {
+  padding: 1.5rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
 }
 
 /* Header */
@@ -50,11 +66,10 @@ header{
   /* needs adjustment */
     /* needs adjustment */
       /* needs adjustment */
-  clip-path: polygon(0 100%, 100% 50%, 100% 100%);
+  clip-path: polygon(-250% 100%, 100% 20%, 100% 100%);
       /* needs adjustment */
     /* needs adjustment */
   /* needs adjustment */
-
   z-index: -1;
 }
 
@@ -73,6 +88,7 @@ header{
   background-position: center;
   box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
 }
+
 #name {
     position: absolute;
   left: 50%;
@@ -86,29 +102,10 @@ header{
   text-align: left;
 }
 
-.content-container {
-  padding: 1.5rem;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-}
-
 .about-container{
   display: flex;
   flex-direction: column;
   padding: 1rem;
-}
-
-
-
-.about-container h2 {
-    font-family: "Playfair Display", 'Times New Roman', Times, serif;
-    font-weight: 200;
-    margin: 0.9rem 0;
-    font-size: 2rem;
 }
 
 .about-container p {
@@ -128,7 +125,21 @@ header{
 .social-container svg {
   width: 1.3rem;
 }
+/* Portfolio */
 
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.project-card{
+  width: 200px;
+
+}
+
+.card-image-container:nth-child(1) {
+  background-color: rgb(165, 131, 245);
+}
 
 /* Footer */
 .attribution {
