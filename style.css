@@ -47,10 +47,11 @@ h2 {
 }
 
 /* Header */
-header{
+header, footer{
   display: flex;
   flex-direction: column;
   background: #1a9fb5;
+  color: white;
   position: relative;
   z-index: 1;
   }
@@ -156,22 +157,18 @@ header::before {
 
 .card-three .card-image-container {
     background-color: #6b9656;
-
 }
 
 .card-four .card-image-container {
     background-color: #c75b9b;
-
 }
 
 .card-five .card-image-container {
     background-color: #4fa8c5;
-
 }
 
 .card-six .card-image-container {
     background-color: #76a162;
-
 }
 
 .card-image-container {
@@ -189,8 +186,6 @@ header::before {
 
 .card-info-container {
   height: 40%;
-  /* display: flex;
-  flex-direction: column; */
 }
 
 .title-social {
@@ -219,19 +214,55 @@ header::before {
   word-wrap: break-word;
   margin: 0;
   padding: 0 1rem;
-  /* margin-bottom: 0.9rem; */
   font-size: 0.9rem;
   color: rgba(0, 0, 0, 0.75);
   text-align: left;
 }
 
 /* Footer */
+.contact-container {
+  text-align: left;
+}
+
+.contact-container h3 {
+  font-family: "Playfair Display", 'Times New Roman', Times, serif;
+  font-weight: 200;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.adress {
+  margin: 1.5rem 0;
+  font-size: 0.8rem;
+}
+
+.phone, .email {
+  font-size: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.phone svg, .email svg {
+  display: none;
+}
+
+.footer-social-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.footer-social-container svg {
+  width: 1.8rem;
+}
+
 .attribution {
   text-align: center;
   width: 100%;
   padding-bottom: 0.3rem;
+  margin-bottom: 2rem;
   font-size: 0.7rem;
-  position: absolute;
+  /* position: absolute; */
   bottom: 0;
   left: 0;
   z-index: 999;
