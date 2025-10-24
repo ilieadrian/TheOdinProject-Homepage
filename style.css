@@ -146,6 +146,34 @@ header::before {
   box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
 }
 
+.card-one .card-image-container {
+    background-color: #7b68c4;
+}
+
+.card-two .card-image-container {
+    background-color: #d89441;
+}
+
+.card-three .card-image-container {
+    background-color: #6b9656;
+
+}
+
+.card-four .card-image-container {
+    background-color: #c75b9b;
+
+}
+
+.card-five .card-image-container {
+    background-color: #4fa8c5;
+
+}
+
+.card-six .card-image-container {
+    background-color: #76a162;
+
+}
+
 .card-image-container {
   width: 100%;
   height: 60%;
