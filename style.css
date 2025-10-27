@@ -32,6 +32,7 @@ img {
 
 h2 {
   font-family: "Playfair Display", 'Times New Roman', Times, serif;
+  color: black;
   font-weight: 200;
   margin: 0.9rem 0;
   font-size: 2rem;
@@ -254,6 +255,16 @@ header::before {
 
 .footer-social-container svg {
   width: 1.8rem;
+}
+
+#footer-image {
+  width: 100%;  
+  /* max-width: 20rem;          */
+  aspect-ratio: 3 / 4; 
+  background-image: url('images/portrait.jpg');
+  background-size: cover;
+  background-position: center;
+  box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
 }
 
 .attribution {
