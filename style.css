@@ -39,7 +39,7 @@ h2 {
 }
 
 .content-container {
-  padding: 1.5rem;
+  padding: 0 1.5rem;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -258,9 +258,8 @@ header::before {
 }
 
 #footer-image {
-  width: 100%;  
-  /* max-width: 20rem;          */
-  aspect-ratio: 3 / 4; 
+  padding: calc(100% - 1.5rem);
+  margin-bottom: 0;
   background-image: url('images/portrait.jpg');
   background-size: cover;
   background-position: center;
