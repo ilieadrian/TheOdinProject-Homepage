@@ -281,3 +281,15 @@ header::before {
 .attribution a {
   margin-left: 0.3rem;
 }
+
+/* Mobile bellow 400px */
+@media screen and (min-width: 400px) {
+  #profile-image {
+    width: 100%;  
+    aspect-ratio: 1;
+    max-width: 15rem;         
+}
+}
+
+
+/* Tablet 768 px*/
