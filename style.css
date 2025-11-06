@@ -301,7 +301,6 @@ header::before {
   }
 
 header::before {
-
   /* needs adjustment */
     /* needs adjustment */
       /* needs adjustment */
@@ -318,6 +317,7 @@ header::before {
 }
 
 #profile-image {
+  position: absolute;
   width: 100%;  
   /* max-width: 20rem;          */
   aspect-ratio: 4 / 4; 
