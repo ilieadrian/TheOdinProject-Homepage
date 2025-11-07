@@ -284,11 +284,17 @@ header::before {
 
 /* Mobile bellow 400px */
 @media screen and (min-width: 400px) {
-    #profile-image {
-      width: 100%;  
-      aspect-ratio: 1;
-      max-width: 15rem;         
+  .content-container {
+    padding: 0 4rem;
   }
+
+  .about-container{
+
+      box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+
+  }
+
+
   /* for the styles bellow remove the unnecesary
   code, after adapt for */
   header, footer{
@@ -319,6 +325,8 @@ header::before {
 #profile-image {
   position: absolute;
   width: 100%;  
+        max-width: 15rem;         
+
   /* max-width: 20rem;          */
   aspect-ratio: 4 / 4; 
   background-image: url('images/portrait.jpg');
