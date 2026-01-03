@@ -275,7 +275,7 @@ header::before {
   /* position: absolute; */
   bottom: 0;
   left: 0;
-  z-index: 999;
+  z-index: 1;
 }
 
 .attribution a {
@@ -284,16 +284,18 @@ header::before {
 
 /* Mobile bellow 400px */
 @media screen and (min-width: 400px) {
+  header .content-container {
+    padding: 3rem;
+  }
+
   .content-container {
     padding: 0 4rem;
   }
 
   .about-container{
-
-      box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
-
+    border: 2px solid black;
+    box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
   }
-
 
   /* for the styles bellow remove the unnecesary
   code, after adapt for */
@@ -303,30 +305,28 @@ header::before {
   background: #1a9fb5;
   color: white;
   position: relative;
-  z-index: 1;
   }
 
 header::before {
-  /* needs adjustment */
     /* needs adjustment */
       /* needs adjustment */
   clip-path: polygon(-250% 100%, 100% 20%, 100% 100%);
       /* needs adjustment */
     /* needs adjustment */
-  /* needs adjustment */
 }
 
 .image-container {
   width: 100%;
-  position: relative;
+  position: absolute;
   /* background: #1a9fb5; */
 }
 
 #profile-image {
-  position: absolute;
+  position: relative;
   width: 100%;  
-        max-width: 15rem;         
-
+  max-width: 15rem;  
+  top: -5%;
+  left: 5%;       
   /* max-width: 20rem;          */
   aspect-ratio: 4 / 4; 
   background-image: url('images/portrait.jpg');
@@ -337,9 +337,10 @@ header::before {
 
 #name {
   position: absolute;
-  left: 50%;
-  bottom: 0%;
-  transform: translateX(-50%);
+  left: 90%;
+  top: -10%; 
+  width: 100%;
+  /* transform: translateX(-50%);  */
   margin: 0;
   color: #fff;
   text-shadow: 0 2px 6px rgba(0,0,0,0.6);
