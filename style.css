@@ -31,7 +31,7 @@ img {
 }
 
 h2 {
-  font-family: "Playfair Display", 'Times New Roman', Times, serif;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
   color: black;
   font-weight: 200;
   margin: 0.9rem 0;
@@ -44,21 +44,22 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 /* Header */
-header, footer{
+header,
+footer {
   display: flex;
   flex-direction: column;
   background: #1a9fb5;
   color: white;
   position: relative;
   z-index: 1;
-  }
+}
 
 header::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -66,11 +67,11 @@ header::before {
   bottom: 0;
   background: #ffffff;
   /* needs adjustment */
-    /* needs adjustment */
-      /* needs adjustment */
+  /* needs adjustment */
+  /* needs adjustment */
   clip-path: polygon(-250% 100%, 100% 20%, 100% 100%);
-      /* needs adjustment */
-    /* needs adjustment */
+  /* needs adjustment */
+  /* needs adjustment */
   /* needs adjustment */
   z-index: -1;
 }
@@ -82,13 +83,13 @@ header::before {
 }
 
 #profile-image {
-  width: 100%;  
+  width: 100%;
   /* max-width: 20rem;          */
-  aspect-ratio: 3 / 4; 
-  background-image: url('images/portrait.jpg');
+  aspect-ratio: 3 / 4;
+  background-image: url("images/portrait.jpg");
   background-size: cover;
   background-position: center;
-  box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 #name {
@@ -98,20 +99,20 @@ header::before {
   transform: translateX(-50%);
   margin: 0;
   color: #fff;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
   font-family: "Playfair Display", serif;
   font-size: 3rem;
   text-align: left;
 }
 
-.about-container{
+.about-container {
   display: flex;
   flex-direction: column;
   padding: 1rem;
 }
 
 .about-container p,
-.project-description p{
+.project-description p {
   margin: 0;
   margin-bottom: 0.9rem;
   font-size: 1rem;
@@ -122,7 +123,7 @@ header::before {
 .about-container .social-container {
   display: flex;
   justify-content: center;
-  gap: 1rem
+  gap: 1rem;
 }
 
 .social-container svg {
@@ -137,40 +138,40 @@ header::before {
   align-items: center;
   justify-content: center;
   gap: 3rem;
-  margin-bottom: 5rem;;
+  margin-bottom: 5rem;
 }
-.project-card{
+.project-card {
   max-width: 320px;
   height: 22rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .card-one .card-image-container {
-    background-color: #7b68c4;
+  background-color: #7b68c4;
 }
 
 .card-two .card-image-container {
-    background-color: #d89441;
+  background-color: #d89441;
 }
 
 .card-three .card-image-container {
-    background-color: #6b9656;
+  background-color: #6b9656;
 }
 
 .card-four .card-image-container {
-    background-color: #c75b9b;
+  background-color: #c75b9b;
 }
 
 .card-five .card-image-container {
-    background-color: #4fa8c5;
+  background-color: #4fa8c5;
 }
 
 .card-six .card-image-container {
-    background-color: #76a162;
+  background-color: #76a162;
 }
 
 .card-image-container {
@@ -179,7 +180,7 @@ header::before {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Playfair Display", 'Times New Roman', Times, serif;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
   padding: 4rem;
   background-color: rgb(165, 131, 245);
   color: white;
@@ -197,8 +198,8 @@ header::before {
   justify-content: space-between;
 }
 
-.title-social h3{
-  font-family: "Playfair Display", 'Times New Roman', Times, serif;
+.title-social h3 {
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
   font-weight: 200;
   margin-left: 1rem;
 }
@@ -212,7 +213,7 @@ header::before {
   width: 1.2rem;
 }
 
-.project-description p{
+.project-description p {
   word-wrap: break-word;
   margin: 0;
   padding: 0 1rem;
@@ -227,7 +228,7 @@ header::before {
 }
 
 .contact-container h3 {
-  font-family: "Playfair Display", 'Times New Roman', Times, serif;
+  font-family: "Playfair Display", "Times New Roman", Times, serif;
   font-weight: 200;
   font-size: 2rem;
   margin-bottom: 1rem;
@@ -238,12 +239,14 @@ header::before {
   font-size: 0.8rem;
 }
 
-.phone, .email {
+.phone,
+.email {
   font-size: 0.8rem;
   margin-bottom: 0.8rem;
 }
 
-.phone svg, .email svg {
+.phone svg,
+.email svg {
   display: none;
 }
 
@@ -261,10 +264,10 @@ header::before {
 #footer-image {
   padding: calc(100% - 1.5rem);
   margin-bottom: 0;
-  background-image: url('images/portrait.jpg');
+  background-image: url("images/portrait.jpg");
   background-size: cover;
   background-position: center;
-  box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .attribution {
@@ -293,27 +296,28 @@ header::before {
     padding: 0 4rem;
   }
 
-  .about-container{
+  .about-container {
     border: 2px solid black;
-    box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
 
   /* for the styles bellow remove the unnecesary
   code, after adapt for */
-  header, footer{
-  display: flex;
-  flex-direction: column;
-  background: #1a9fb5;
-  color: white;
-  position: relative;
+  header,
+  footer {
+    display: flex;
+    flex-direction: column;
+    background: #1a9fb5;
+    color: white;
+    position: relative;
   }
 
   header::before {
-      /* needs adjustment */
-        /* needs adjustment */
+    /* needs adjustment */
+    /* needs adjustment */
     clip-path: polygon(-250% 100%, 100% 20%, 100% 100%);
-        /* needs adjustment */
-      /* needs adjustment */
+    /* needs adjustment */
+    /* needs adjustment */
   }
 
   .image-container {
@@ -324,40 +328,40 @@ header::before {
 
   #profile-image {
     position: relative;
-    width: 100%;  
-    max-width: 15rem;  
+    width: 100%;
+    max-width: 15rem;
     top: -5%;
-    left: 5%;       
+    left: 5%;
     /* max-width: 20rem;          */
-    aspect-ratio: 4 / 4; 
+    aspect-ratio: 4 / 4;
     /* background-image: url('images/portrait.jpg'); */
     /* background-size: cover; */
     /* background-position: center; */
-    box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   }
 
   #name {
     position: absolute;
     left: 90%;
-    top: -10%; 
+    top: -10%;
     width: 100%;
     /* transform: translateX(-50%);  */
     margin: 0;
     color: #fff;
-    text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
     font-family: "Playfair Display", serif;
     font-size: 3rem;
     text-align: left;
   }
 
-  .about-container{
+  .about-container {
     display: flex;
     flex-direction: column;
     padding: 1rem;
   }
 
   .about-container p,
-  .project-description p{
+  .project-description p {
     margin: 0;
     margin-bottom: 0.9rem;
     font-size: 1rem;
@@ -368,29 +372,30 @@ header::before {
   .about-container .social-container {
     display: flex;
     justify-content: center;
-    gap: 1rem
+    gap: 1rem;
   }
 
   .projects-container {
     max-width: 700px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  margin-bottom: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 10rem;
   }
 
-  .content-container{
+  .content-container {
     padding: 2rem;
     flex-direction: row;
+    justify-content: space-around;
+    gap: 1rem
   }
-  #footer-image{
+  #footer-image {
     width: 100%;
     max-width: 250px;
     /* height: 250px;  */
-    padding: 0; 
-    aspect-ratio: 3 / 4; 
+    padding: 0;
+    aspect-ratio: 3 / 4;
   }
 }
-
 
 /* Tablet 768 px*/
