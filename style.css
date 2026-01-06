@@ -383,7 +383,7 @@ header::before {
     margin-bottom: 10rem;
   }
 
-  .content-container {
+  footer > .content-container {
     padding: 2rem;
     flex-direction: row;
     justify-content: space-around;
