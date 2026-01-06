@@ -86,7 +86,7 @@ header::before {
   width: 100%;
   /* max-width: 20rem;          */
   aspect-ratio: 3 / 4;
-  background-image: url("images/portrait.jpg");
+  background-image: url("images/portrait.webp");
   background-size: cover;
   background-position: center;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -264,7 +264,7 @@ header::before {
 #footer-image {
   padding: calc(100% - 1.5rem);
   margin-bottom: 0;
-  background-image: url("images/portrait.jpg");
+  background-image: url("images/portrait-footer.webp");
   background-size: cover;
   background-position: center;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
