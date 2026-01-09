@@ -52,7 +52,7 @@ header,
 footer {
   display: flex;
   flex-direction: column;
-  background: #1a9fb5;
+  background: #098fb0;
   color: white;
   position: relative;
   z-index: 1;
@@ -66,25 +66,18 @@ header::before {
   right: 0;
   bottom: 0;
   background: #ffffff;
-  /* needs adjustment */
-  /* needs adjustment */
-  /* needs adjustment */
   clip-path: polygon(-250% 100%, 100% 20%, 100% 100%);
-  /* needs adjustment */
-  /* needs adjustment */
-  /* needs adjustment */
   z-index: -1;
 }
 
 .image-container {
+  margin-top: 1rem;
   width: 100%;
   position: relative;
-  /* background: #1a9fb5; */
 }
 
 #profile-image {
   width: 100%;
-  /* max-width: 20rem;          */
   aspect-ratio: 3 / 4;
   background-image: url("images/portrait.webp");
   background-size: cover;
@@ -95,7 +88,7 @@ header::before {
 #name {
   position: absolute;
   left: 50%;
-  bottom: 0%;
+  bottom: -2%;
   transform: translateX(-50%);
   margin: 0;
   color: #fff;
@@ -109,15 +102,20 @@ header::before {
   display: flex;
   flex-direction: column;
   padding: 1rem;
-}
+  margin-bottom: 2rem;
+  }
 
 .about-container p,
 .project-description p {
   margin: 0;
   margin-bottom: 0.9rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: rgba(0, 0, 0, 0.75);
   text-align: left;
+}
+
+.about-container p{
+    letter-spacing: 1px;
 }
 
 .about-container .social-container {
@@ -229,9 +227,10 @@ header::before {
 
 .contact-container h3 {
   font-family: "Playfair Display", "Times New Roman", Times, serif;
+  text-align: center;
   font-weight: 200;
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin: 1rem;
 }
 
 .adress {
@@ -254,7 +253,8 @@ header::before {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-bottom: 0.8rem;
+  margin-bottom: 2rem;
+  
 }
 
 .footer-social-container svg {
@@ -271,6 +271,7 @@ header::before {
 }
 
 .attribution {
+
   text-align: center;
   width: 100%;
   padding-bottom: 0.3rem;
